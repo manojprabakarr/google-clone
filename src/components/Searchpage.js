@@ -87,17 +87,17 @@ function Searchpage() {
 
 
       <div  className="mt-8 ml-20 mb-20  max-w-screen-sm">
-        <p style={{color:"#70757a"}}className="text-base">ejwabckjebw jbcvjebkjc kce </p>
+        <p style={{color:"#70757a"}}className="text-base"> </p>
 
 
         <div className="m-40">
           <a href="/">link</a>
           <a className="font-medium mt-2 mb-4 no-underline" href="item.link">
-                <h2 className="font-medium mt-2 mb-4 no-underline">item.title</h2>
+                <h2 className="font-medium mt-2 mb-4 no-underline"></h2>
               </a>
 
 
-              <p className="">item.snippet</p>
+              <p className=""></p>
 
         </div>
 
