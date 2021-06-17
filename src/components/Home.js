@@ -2,7 +2,7 @@ import React from 'react';
 import AppsIcon from "@material-ui/icons/Apps";
 import {Avatar} from '@material-ui/core'
 import Search from './search'
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -12,8 +12,8 @@ function Home() {
      
         <header className="flex w-full p-5 justify-end  text-base font-light">
           <div className="flex space-x-4 items-center">
-          <a  href="/Images">Images</a>
-          <a   href="/email">Gmail</a>
+          <Link  to="/Images">Images</Link>
+          <Link   to="/email">Gmail</Link>
           <AppsIcon />
           <Avatar />
 
@@ -41,16 +41,16 @@ function Home() {
 
          <footer className="flex w-full bg-gray-100  justify-between fixed bottom-0  md:flex-col">
            <div className="flex space-x-4 items-center  ">
-             <a href="/about">About</a>
-             <a href="/ad">Advertising</a>
-             <a href="/business">Business</a>
+             <Link to="/about">About</Link>
+             <Link to="/ad">Advertising</Link>
+             <Link to="/business">Business</Link>
 
            </div>
 
            <div className="flex justify-end  space-x-4 items-center">
-           <a href="/privacy">Privacy</a>
-             <a href="/terms">Terms</a>
-             <a href="/settings">Settings</a>
+           <Link to="/privacy">Privacy</Link>
+             <Link to="/terms">Terms</Link>
+             <Link to="/settings">Settings</Link>
 
            </div>
 
